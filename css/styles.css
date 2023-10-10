@@ -395,7 +395,6 @@ ul {
 }
 .container1 {
   width: 206px;
-  
 }
 .contacts-section {
   padding-top: 28px;
@@ -561,7 +560,6 @@ ul {
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
-
 .card {
   width: 370px;
   height: 294px;
@@ -571,7 +569,6 @@ ul {
 .card:hover .hidden-div {
   transform: translateX(0);
 }
-
 .hidden-div p {
   width: 322px;
   color: #fff;
@@ -584,7 +581,6 @@ ul {
   letter-spacing: 0.54px;
   padding-top: 63px;
 }
-
 .hidden-div {
   position: absolute;
   display: flex;
@@ -599,7 +595,6 @@ ul {
   transform: translateY(100%);
   transition: transform 250ms ease-in-out;
 }
-
 .container {
   border-left: 1px solid #eee;
   border-right: 1px solid #eee;
