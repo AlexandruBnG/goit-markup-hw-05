@@ -7,12 +7,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
-    />
-    <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/modern-normalize/modern-normalize.css"
     />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
@@ -51,7 +51,7 @@
     <main>
       <section class="efective-solution-section">
         <h1>EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
-        <button class="index-button">Request our service</button>
+        <button data-modal-open class="index-button">Request our service</button>
       </section>
       <section class="section-4-icons">
         <div class="container-4-icons">
@@ -114,9 +114,24 @@
         <h2 class="titleh2">What we do</h2>
         <div class="container-img-html">
           <ul>
-            <li><img src="./images/html.jpg" alt="html" /></li>
-            <li><img src="./images/app.jpg" alt="app" /></li>
-            <li><img src="./images/design.jpg" alt="design" /></li>
+            <div>
+              <div class="what-we-do-description">
+                <p>DESKTOP APPS</p>
+              </div>
+              <li><img src="./images/html.jpg" alt="html" /></li>
+            </div>
+            <div>
+              <div class="what-we-do-description">
+                <p>Mobile APPS</p>
+              </div>
+              <li><img src="./images/app.jpg" alt="app" /></li>
+            </div>
+            <div>
+              <div class="what-we-do-description">
+                <p>DESIGN SOLUTIONS</p>
+              </div>
+              <li><img src="./images/design.jpg" alt="design" /></li>
+            </div>
           </ul>
         </div>
       </section>
@@ -347,5 +362,14 @@
         </div>
       </address>
     </footer>
+    <!--Request our service modal-->
+    <div class="modal" data-modal>
+    <div class="modal-content">
+    <div class="div-close-btn">
+    <button class="close-btn" data-modal-close>&times;</button>
+    </div>
+    </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
