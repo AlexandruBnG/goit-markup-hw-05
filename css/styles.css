@@ -2,7 +2,7 @@
   --color: #fff;
 }
 .container-body {
-  margin: auto;
+  margin:auto;
 }
 ul {
   list-style-type: none;
@@ -554,6 +554,7 @@ ul {
 }
 .cards-portofolio {
   margin-bottom: 30px;
+  
 }
 .cards-portofolio:hover {
   cursor: pointer;
@@ -566,7 +567,7 @@ ul {
   position: relative;
   overflow: hidden;
 }
-.card:hover .hidden-div {
+.cards-portofolio:hover .hidden-div {
   transform: translateX(0);
 }
 .hidden-div p {
@@ -739,6 +740,8 @@ footer a {
   align-items: center;
   top: 0;
   right: 0;
+  margin-top:8px;
+  margin-right: 8px;
 }
 .close-btn {
   background-color: #fff;
